@@ -1,0 +1,20 @@
+{
+    "name": "lvitali/poker-ranker",
+    "autoload": {
+        "psr-4": {
+            "PokerRanker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "test"
+        }
+    },
+    "require": {
+        "php": "7.4.*",
+        "illuminate/collections": "^8.75"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
